@@ -27,3 +27,18 @@ http://mailing-list.libusb.info
 - Nathan Hjelm <hjelmn@users.sourceforge.net>
 - Chris Dickens <christopher.a.dickens@gmail.com>
 (Please use the mailing list rather than mailing developers directly)
+
+
+Modification
+------------
+To make built library files can be compiled by Qt, project description file for Qt Creator is created in this forked project.
+
+The following is the building environment:
+System: Windows 7 64-bit
+Qt Version: Qt-5.4
+Compiler Base: MSVC 2013 Community Edition (x64)
+
+You can find the project file, libusb_qt_static.pro under ./msvc/ directory. Please use your Qt Crator to open it so that you can build the static library file for libusb.lib and use it in your individual project.
+
+Modifier: coldsleep <rmx.z91@gmail.com>
+
